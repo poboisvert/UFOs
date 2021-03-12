@@ -1,11 +1,6 @@
-body {
-  color: whitesmoke;
-}
-
 .bg-dark {
   display: flex;
   flex-direction: column;
-  background-color: #18191a;
   color: whitesmoke;
   margin: 0 100px;
 }
@@ -21,6 +16,30 @@ body {
 }
 
 .navbar-brand,
+.navbar-brand a,
 .navbar-brand:hover {
-  color: grey;
+  color: grey !important;
+}
+
+.sticky {
+  top: 0;
+  position: sticky !important;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.row {
+  background-color: black;
+  border-radius: 20px;
+  margin: 50px 0;
+  padding: 50px 10px 10px 10px;
+  top: 0;
+}
+
+.grey {
+  background-color: #222f3e;
 }
