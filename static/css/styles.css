@@ -1,0 +1,26 @@
+body {
+  color: whitesmoke;
+}
+
+.bg-dark {
+  display: flex;
+  flex-direction: column;
+  background-color: #18191a;
+  color: whitesmoke;
+  margin: 0 100px;
+}
+
+.jumbotron {
+  background-image: url("../img/nasa.jpg");
+  text-align: center;
+  color: whitesmoke;
+}
+
+.list-group-item {
+  color: black;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: grey;
+}
