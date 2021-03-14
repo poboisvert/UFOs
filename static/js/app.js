@@ -24,7 +24,9 @@ function buildTable(data) {
 }
 
 // 1. Create a variable to keep track of all the filters as an object.
-let filters = new Array();
+//let filters = new Array();
+let filters = {};
+//console.log(filters);
 
 // 3. Use this function to update the filters.
 function updateFilters() {
@@ -37,7 +39,7 @@ function updateFilters() {
 
   // 4b. Save the value that was changed as a variable.
   let elementValue = elementSelected.property("value");
-  console.log(elementValue);
+  // console.log(elementValue);
 
   // 4c. Save the id of the filter that was changed as a variable.
   let elementId = elementSelected.attr("id");
@@ -65,20 +67,20 @@ function filterTable() {
   // matches the filter values
   let filteredData = [];
 
-  //console.log(filters);
+  console.log(filters);
 
   Object.entries(filters).forEach(([key, value]) => {
     console.log(key);
     console.log(value);
     //console.log(text(value));
     if (!value) {
-      buildData = prefilterData;
+      filteredData = prefilterData;
     } else {
-      buildData = prefilterData.filter((row) => row[key] === value);
+      filteredData = prefilterData.filter((row) => row[key] === value);
     }
   });
   // 10. Finally, rebuild the table using the filtered data
-  buildTable(buildData);
+  buildTable(filteredData);
 }
 
 // GENEREIC JS - LOAD on page open
