@@ -2,9 +2,9 @@
 
 This project uses the library D3 in order to provide filters of UFO sightings dataset. It allows users to filter by city, state, country, and shape on a specific table.
 
-GitHub.io: https://poboisvert.github.io/UFOs/
-
 ![preview](preview.png)
+
+Live Demo (GitHub.io): https://poboisvert.github.io/UFOs/
 
 ## Resources
 
@@ -13,7 +13,7 @@ GitHub.io: https://poboisvert.github.io/UFOs/
 
 ## Navigation
 
-The website present a small space picture and a quick summary on why some enjoy reading on UFO.
+The website present a small space picture and a quick summary on why some enjoy reading on UFO. To reset a filter, the user needs to empty the selected field a click outsie the input.
 
 ### Searching
 
