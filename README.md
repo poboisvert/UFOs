@@ -29,5 +29,5 @@ This interface provide a single analysis with a case by case display. It may not
 
 ### Suggestion
 
-- 1: Add a stastical box over the table to get a first impression.
+- 1: Add a statistical box over the table to get a first impression.
 - 2: some keywords in the comments section may give the another insights that could not have been records by the data.
